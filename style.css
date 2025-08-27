@@ -55,9 +55,35 @@ body {
     margin-right: 120px;
 }
 
+.info-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    margin: 36px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937; 
+}
+
+.card {
+    max-width: 200px;
+    margin: 16px;
+}
+
 .footer {
     background-color: #1F2937;
 }
+
+
 
 button {
     margin: 16px 0px;
@@ -83,4 +109,10 @@ li {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+img {
+    border-radius: 7px;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
 }
